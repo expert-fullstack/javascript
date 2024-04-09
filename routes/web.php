@@ -24,7 +24,7 @@ Route::group(['middleware' => ['userAuth']], function(){
  
    Route::get('/blog/create', 'App\Http\Controllers\BlogController@create')->name('user.blogs.create');
    Route::post('/blog/create', 'App\Http\Controllers\BlogController@store')->name('user.blogs.create');
-   Route::get('/blog/{id}/details', 'App\Http\Controllers\BlogController@detail')->name('home.blogs.detail');
+   Route::get('/blog/{id}/details', 'App\Http\Controllers\BlogController@detail')->name('home.blogs.detail');  
 });
 Route::get('/', 'App\Http\Controllers\BlogController@index')->name('user.blogs.index');
 
