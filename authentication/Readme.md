@@ -1,4 +1,4 @@
-```markdown
+
 # MERN Authentication App
 
 This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack, featuring user authentication and authorization using JSON Web Tokens (JWT). The app utilizes cookies to store JWT tokens, and passwords are securely hashed and salted before storage.
@@ -27,14 +27,14 @@ The frontend is built with React and TypeScript, utilizing Redux Toolkit Query f
 1. Clone the repository:
 ```
 
-git clone https://github.com/your-username/mern-auth-app.git
+git clone git@github.com:bizdesire/javascript.git
 
 ```
 
 2. Navigate to the project directory:
 ```
 
-cd mern-auth-app
+cd javascript/authentication
 
 ```
 
@@ -60,7 +60,6 @@ npm install
 ```
 
 MONGO_URI=<your-mongodb-uri>
-<br />
 JWT_SECRET=<your-jwt-secret>
 
 ```
@@ -94,4 +93,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
+
