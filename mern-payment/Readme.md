@@ -1,6 +1,5 @@
 To incorporate the additional configuration details and an introduction to your PayPal MERN web app handling payments and subscriptions into your README file, follow this updated structure:
 
-```markdown
 # MERN Authentication & PayPal Subscription App
 
 This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack, featuring user authentication and authorization using JSON Web Tokens (JWT). The app utilizes cookies to store JWT tokens, and passwords are securely hashed and salted before storage.
@@ -97,6 +96,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
 This README structure now includes comprehensive information about your MERN authentication app enhanced with PayPal subscription capabilities. It covers installation steps, configuration details, technologies used, and how users can interact with subscription features integrated via PayPal. Adjust any specifics such as URLs, API keys, or paths to match your actual application setup.
