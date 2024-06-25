@@ -1,22 +1,35 @@
 {
-  "name": "mern-payment",
+  "name": "server",
   "version": "1.0.0",
-  "description": "A mern app for payments",
-  "main": "server.js",
-  "license": "MIT",
   "type": "module",
+  "description": "MERN authentication system",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
     "server": "nodemon server/server.js",
     "client": "npm run dev --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\" email dev"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "buffer-crc32": "^1.0.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "mongoose": "^8.4.3"
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^12.1.1",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "node-fetch": "^3.3.2",
+    "resend": "^3.3.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",

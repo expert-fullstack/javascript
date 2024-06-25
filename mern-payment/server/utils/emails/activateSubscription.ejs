@@ -1,0 +1,107 @@
+<!-- emails/subscription_activation.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subscription Activated</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      text-align: center;
+      background-color: rgb(40,41,48);
+      color: #F5F5DC; /* Cream white font color */
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      border-bottom: 1px solid #ddd;
+    }
+    .content {
+      padding: 20px;
+      color: #555555; /* Dark gray font color */
+    }
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 16px;
+      color: #F5F5DC !important; /* Cream white font color */
+      background-color: rgb(40,41,48);
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 20px 0;
+      cursor: pointer; /* Provide a pointer cursor on hover */
+      transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    }
+    .button:hover {
+      background-color: #333; /* Darken background color on hover */
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 14px;
+      color: #555;
+    }
+    .footer ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .footer ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    .company-name {
+      color: blue;
+      font-size: 24px; /* Same size as header font */
+      font-weight: bold;
+    }
+    .gif-container {
+      text-align: center;
+      padding-top: 20px;
+    }
+    .gif-container img {
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">BIZDESIRE</div>
+    <div class="content">
+      <h1>Hello, <%= name %>!</h1>
+      <p>Your subscription has been successfully activated.</p>
+      <p>We are excited to have you as a subscriber. Our platform is designed to help you achieve your business goals with ease.</p>
+      <a href="<%= activationLink %>" class="button">Start Exploring</a>
+      <div class="gif-container">
+        <img src="https://ci3.googleusercontent.com/meips/ADKq_NbTNZPpEbC01oT03zifPEoO8gwa4jgMiHBScywPFLOJyHNH6wlAsl9Ak9M9X4khyZJUY3ZnyeJPdYdl_Ial-sGVkj-jQGYxswy0Q3v8u-ZoZKDDeXRSn2nPIAvjbU9fFgw-d0_GIeGRRPrbDA=s0-d-e1-ft#https://image.email.slackhq.com/lib/fe5515707c610d7b7312/m/1/07_Browse_Channel_GIF.gif" alt="Welcome GIF" />
+      </div>
+    </div>
+    <div class="footer">
+      <p class="company-name">BIZDESIRE</p>
+      <hr>
+      <p>Help & Contact | Security | Apps</p>
+      <p>Twitter Instagram Facebook LinkedIn</p>
+      <p>Bizdesire is committed to preventing fraudulent emails. Emails from Bizdesire will always contain your full name. Learn to identify phishing.</p>
+      <p>Please don't reply to this email. To get in touch with us, click Help & Contact.</p>
+      <p>Not sure why you received this email? Learn more.</p>
+      <p>Copyright © 1999-2024 Bizdesire, Inc. All rights reserved. Bizdesire is located at 2211 N. First St., San Jose, CA 95131.
+      Bizdesire RT000208:en_US(en-US):1.0.0:dcg18notificationnodeserv1:f24361821397a</p>
+    </div>
+  </div>
+</body>
+</html>

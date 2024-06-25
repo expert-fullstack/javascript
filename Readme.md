@@ -10,7 +10,7 @@ A full-stack Todo application built with the MERN (MongoDB, Express, React, Node
 
 ### 2. MERN Payment
 
-An e-commerce application built with the MERN stack, integrating with Stripe for payment processing and an SMTP service for email notifications. This project also utilizes WebSockets for real-time payment notifications to the user. It demonstrates how to handle secure payments, send transactional emails, and provide real-time updates using WebSockets.
+An e-commerce application built with the MERN stack, integrating with paypal for payment processing and an SMTP service for email notifications. This project also utilizes WebSockets for real-time payment notifications to the user. It demonstrates how to handle secure payments, send transactional emails, and provide real-time updates using WebSockets.
 
 ### 3. Next.js Recipe App
 
