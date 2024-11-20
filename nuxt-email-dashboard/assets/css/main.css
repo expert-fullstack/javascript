@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.labels-enter-active,
+.labels-leave-active {
+  transition: all 0.2s ease;
+}
+
+.labels-enter-from,
+.labels-leave-to {
+  opacity: 0;
+  transform: translateY(-0.75rem);
+}
+
+.v-popper__inner {
+  @apply text-xs;
+}
